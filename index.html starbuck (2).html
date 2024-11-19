@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2f6769;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 50px;
+            align-items: center;
+        }
+
+        .text-content {
+            max-width: 500px;
+        }
+
+        .text-content h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .text-content h1 span {
+            color: #006241;
+            font-weight: bold;
+        }
+
+        .text-content p {
+            color: #030000;
+            margin: 30px 0;
+            line-height: 1.6;
+        }
+
+        .text-content button {
+            background-color: #006241;
+            color: #bda0a0;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product-image {
+            max-width: 400px;
+        }
+
+        .nav-links {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .social-icons {
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .social-icons a {
+            margin: 5px 0;
+            color: #333;
+            font-size: 24px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">What's New</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <!-- Text Content -->
+        <div class="text-content">
+            <h1>It's not just Coffee<br>It's <span>Starbucks</span></h1>
+            <p>Since 1971, it always has been and will always be about quality. We’re passionate about ethically sourcing only the finest Arabica coffee beans and roasting them with great care. Our passion for coffee is rivaled only by our love of sharing it.</p>
+            <button>Learn More</button>
+            <button>Open Now</button>
+        </div>
+
+        <!-- Product Image -->
+        <img src="starbuck.jpg" alt="Starbucks Drink" class="product-image">
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+        <a href="#">&#xf09a;</a> <!-- Example of Font Awesome icon for Facebook -->
+        <a href="#">&#xf099;</a> <!-- Twitter icon -->
+        <a href="#">&#xf16d;</a> <!-- Instagram icon -->
+    </div>
+
+</body>
+</html>
